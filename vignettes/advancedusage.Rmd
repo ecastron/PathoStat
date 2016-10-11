@@ -2,7 +2,7 @@
 title: "PathoStat Advanced Usage"
 author: "Sandro L. Valenzuela, Eduardo Castro-Nallar"
 date: "`r Sys.Date()`"
-package: "`r pkg_ver('BiocStyle')`"
+package: "`r pkg_ver('PathoStat')`"
 vignette: >
   %\VignetteIndexEntry{PathoStat advance use}
   %\VignetteEngine{knitr::rmarkdown}
