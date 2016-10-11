@@ -61,7 +61,7 @@ and get the taxonomy membership and relative abundance. In addition you can sort
 the stacked bars (samples) by different factors in your data and download a svg 
 image for further editing.  
 
-| ![Relative Abundance plot](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/ra_taxlevel.png)
+| ![Relative Abundance plot](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/ra_taxlevel.png)
 
 The image above shows the user interface of the stacked bar chart. On the left 
 you can select the appropriate taxonomy level to plot, and by clicking on the 
@@ -75,7 +75,7 @@ sample. As with the previous subtab, you can select what taxonomic level you
 wish to plot by simply using the dropdown menu at the left of the user 
 interface.  
 
-| ![Heatmap](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/ra_heat.png)
+| ![Heatmap](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/ra_heat.png)
 
 The legend on the right side of the plot shows the scale and the color gradient.
 
@@ -86,7 +86,8 @@ trends in the data and identifying outliers. As with the previous subtabs,
 Summary offers redundant information that points to the distribution of the 
 taxonomic composition of your samples.  
 
-| ![Summary](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/ra_summary.png)
+| ![Summary](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/ra_summary.png)
+
 
 ## RA Table (%)
 
@@ -97,7 +98,7 @@ abundance. All columns are sortable, and at the top right corner of the table
 you can use the search case to check for specific taxa.  
 
 
-| ![RA Table(%)](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/ra_ra.png)
+| ![RA Table(%)](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/ra_ra.png)
 
 ## Count table
 
@@ -107,7 +108,7 @@ differential abundance of taxa between conditions. Statistical models such as
 those implemented in EdgeR and DESeq2 explicitly require count data to ensure 
 specificity.  
 
-| ![Count table](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/ra_ct.png)
+| ![Count table](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/ra_ct.png)
 
 # Diversity
 
@@ -127,7 +128,7 @@ their homogeneity or evenness. In this subtab, you obtain estimates for alpha
 diversity using the Shannon, Simpson, and Inverse Simpson metrics as a function 
 of a factor.
 
-| ![Alpha Diversity](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/di_ad.png)
+| ![Alpha Diversity](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/di_ad.png)
 
 ## Beta Diversity
 
@@ -136,7 +137,7 @@ variation using the Bray-Curtis distance metric. The color key indicates a
 normalized score (the row z-score) and the dendrogram is constructed using 
 hierarchical clustering.  
 
-| ![Beta Diversity](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/di_bd.png)
+| ![Beta Diversity](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/di_bd.png)
 
 ## Exploratory Tree
 
@@ -145,7 +146,7 @@ the figure below, the tree is decorated with the most abundant taxon and their
 relative abundance by condition. This tree can reveal not only similarity among 
 samples but also what taxon dominates each sample.  
 
-| ![Exploratory Tree](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/di_et.png)
+| ![Exploratory Tree](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/di_et.png)
 
 ## Biplot
 
@@ -155,7 +156,7 @@ e.g., condition, treatment, etc. The menu on the left side of the panel lets you
 select the variables to explore as well as the method to estimate the distance 
 among variables.  
 
-| ![Biplot](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/di_bip.png)
+| ![Biplot](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/di_bip.png)
 
 ## Co-Occurrence
 
@@ -167,7 +168,7 @@ compared and the maximum distance that will connect two taxa together. The
 result is a network graph where edges are proportional to the strength of 
 co-occurrence.  
 
-| ![Co-Ocurrence](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/di_coo.png)
+| ![Co-Ocurrence](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/di_coo.png)
 
 # Differential Expression
 
@@ -181,23 +182,17 @@ In the Expression Plot subtab, you first select the taxonomy level of choice for
 the comparison and then you select the primary and secondary covariates. The 
 results are shown as BoxPlots colored by covariate.  
 
-| ![Expression Plots](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/de_rp.png)
+| ![Expression Plots](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/de_rp.png)
 
-## Other subtabs
+## Summary, Table and LIMMA
 
 The Summary subtab shows text summary of the data used for the BoxPlots in the 
-Expression Plots subtab.
+Expression Plots subtab. The next two subtabs summarize the results as a table 
+of raw values and as a Fold Change table, respectively.  
 
-| ![Summary](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/de_summary.png)
+| ![Table](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/de_table.png)
 
-## Table and LIMMA
-
-The next two subtabs summarize the results as a table of raw values and as a 
-Fold Change table, respectively.  
-
-| ![Table](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/de_table.png)
-
-| ![LIMMA](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/de_limma.png)
+| ![LIMMA](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/de_limma.png)
 
 # Confidence Region
 
@@ -205,7 +200,7 @@ Many times researchers are interested in the accuracy of taxon abundance
 estimates. In this subtab, we provide a way to compare within-sample taxa in 
 terms of their abundance estimate and 95% confidence interval.  
 
-| ![Confidence Region](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/cr.png)
+| ![Confidence Region](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/cr.png)
 
 On the left-side menu, you can select both the sample and the taxa to be used in
 the comparison. The results are plotted as a jitter plot that indicates the 95% 
@@ -220,15 +215,7 @@ your samples are related by some biological condition of interest or by
 technical batch, in which case you would need to denoise the data first using 
 methods such as surrogate variable analysis.
 
-| ![PCA](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/pca_pca.png)
-
-## Summary and Table
-
-These subtabs show text representations of the data used for the PCA plots.
-
-| ![Summary](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/pca_summary.png)
-
-| ![Table](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/pca_table.png)
+| ![PCA](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/pca_pca.png)
 
 ## Explained Variation
 
@@ -238,7 +225,7 @@ subtab, you can get an idea of that by exploring the different columns in terms
 of Proportion of Variance, Cumulative Variance and percent variation, among 
 others.  
 
-| ![Explained Variation](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/pca_ev.png)
+| ![Explained Variation](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/pca_ev.png)
 
 #Time Series
 
@@ -247,7 +234,7 @@ a function of time. Strictly speaking, you could use any discrete numerical
 variable from your dataset for visualization. In the example below, we use 
 SubjectID (not a numerical variable though) and agglomerate the data by Phylum.  
 
-| ![Time Series](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/ts.png)
+| ![Time Series](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/ts.png)
 
 #Core OTUs
 
@@ -256,7 +243,7 @@ about a set of metagenomic samples. Analogous to pangenome analysis in
 comparative genomics, the Core OTU tab allows you to identify shared taxa or 
 core taxa among samples.  
 
-| ![Core OTUs](https://raw.githubusercontent.com/Sanrrone/pathostatimages/master/cu.png)
+| ![Core OTUs](https://raw.githubusercontent.com/ecastron/PathoStat/master/vignettes/img/cu.png)
 
 You first set up a detection threshold, meaning a minimum abundance proportion a
 OTU must have in order to be considered in the analysis, and the number of 
